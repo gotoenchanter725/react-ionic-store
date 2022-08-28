@@ -1,0 +1,93 @@
+.signupPage {
+    background: white;
+
+    ion-header {
+        h4 {
+            color: black;
+        }
+
+        ion-toolbar {
+            --padding-start: 1rem;
+            --padding-end: 1rem;
+
+            ion-button {
+                font-size: 20px;
+            }
+        }
+    }
+
+    ion-content {
+
+        .setAddress {
+            span {
+                color: black;
+            }
+        }
+
+        .togglerWrapper {
+            display: block;
+            width: 45px;
+            height: 20px;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .togglerWrapper input[type="checkbox"] {
+            display: none;
+        }
+
+        .togglerWrapper input[type="checkbox"]:checked+.togglerSlider {
+            background-color: #f1f2f2;
+        }
+
+        .togglerWrapper .togglerSlider {
+            background-color: #0099fe;
+            position: absolute;
+            border-radius: 100px;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all 300ms ease;
+            transition: all 300ms ease;
+        }
+
+        .togglerWrapper .togglerKnob {
+            position: absolute;
+            -webkit-transition: all 300ms ease;
+            transition: all 300ms ease;
+        }
+
+
+        .togglerWrapper.customCheck input[type="checkbox"]:checked+.togglerSlider .togglerKnob {
+            left: calc(100% - 15px - 3px);
+            background-color: #0099fe;
+        }
+
+
+        .togglerWrapper.customCheck .togglerKnob {
+            width: calc(20px - 6px);
+            height: calc(20px - 6px);
+            border-radius: 50%;
+            left: 3px;
+            top: 3px;
+            background-color: white;
+        }
+
+        ion-label {
+            color: black;
+            display: block;
+            // margin-bottom: 20px;
+        }
+    }
+
+    ion-footer {
+        --background: transparent;
+
+        .footerLine {
+            width: 40%;
+            border: 3px solid white;
+            border-radius: 10px;
+        }
+    }
+}

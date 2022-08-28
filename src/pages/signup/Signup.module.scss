@@ -1,0 +1,45 @@
+.signupPage {
+    background: url(./siginup1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    ion-header {
+        ion-toolbar {
+            --padding-start: 1rem;
+            --padding-end: 1rem;
+
+            ion-button {
+                font-size: 20px;
+
+                ion-icon {
+                    color: #0099fe;
+                }
+            }
+        }
+    }
+
+    ion-content {
+        ion-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: black;
+        }
+    }
+
+    ion-footer {
+        --background: transparent;
+
+        .footerLine {
+            width: 40%;
+            border: 3px solid black;
+            border-radius: 10px;
+        }
+    }
+}

@@ -1,0 +1,95 @@
+.accountPage {
+    background: #f6f8f9;
+
+    ion-header {
+        background: #f6f8f9;
+
+        h4 {
+            color: black;
+        }
+
+        ion-toolbar {
+
+            ion-icon {
+                color: white;
+                font-size: 1.5rem;
+                border-radius: 50%;
+                padding: 5px;
+                background: #0099fe;
+                font-weight: bold;
+                margin-top: 5px;
+            }
+        }
+
+    }
+
+    ion-content {
+        ion-card {
+            background: url(./2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: white;
+
+            .userInfo {
+                h5 {
+                    margin: 0;
+                }
+
+                .userAvatar {
+                    width: 50px;
+                    border-radius: 50%;
+                    border: 2px solid white;
+                    overflow: hidden;
+                    margin-right: 5px;
+                }
+
+                .inviteImg {
+                    width: 16px;
+                    margin-left: 5px;
+                }
+            }
+
+            .usreBadge {
+                width: 40px;
+            }
+
+        }
+
+        .accountItemBox {
+            background-color: white;
+
+            .accountLinkTab {
+
+                padding: 0.9rem;
+                border-bottom: 1px solid #95959534;
+
+                .accountLinkTabTitle {
+                    ion-row {
+                        align-items: center;
+
+                        ion-img {
+                            width: 28px;
+                            margin-right: 10px;
+                        }
+
+                        span {
+                            color: black;
+                        }
+                    }
+
+                }
+
+                .accountLinkTabArrow {
+                    ion-icon {
+                        color: #959da6;
+                    }
+                }
+            }
+
+            .noBorder {
+                border: none;
+            }
+        }
+    }
+}

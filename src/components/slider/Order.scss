@@ -1,0 +1,23 @@
+.swiper {
+    width: 240px;
+    height: 280px;
+}
+
+.swiper-slide {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+}
+
+.swiper-slide ion-img {
+    width: 90%;
+    margin-bottom: 20px;
+}

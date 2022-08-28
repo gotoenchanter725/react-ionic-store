@@ -1,0 +1,97 @@
+.profilePage {
+    ion-toolbar {
+
+        --border-style: none;
+        --border-color: transparent;
+        --padding-start: 1rem;
+        --padding-end: 1rem;
+
+    }
+
+    .profileContainer {
+        min-height: 100%;
+        position: relative;
+        background-color: #ffffff;
+        background-image: radial-gradient(#b8b8b8 1px, transparent 1px),
+            radial-gradient(#b8b8b8 1px, #ffffff 1px);
+        background-size: 40px 40px;
+        background-position: 0 0, 20px 20px;
+        padding: 30px 10px;
+
+        .profileHeading {
+            background: #fcedff;
+            border-radius: 10px;
+
+            h1 {
+                color: black;
+            }
+        }
+
+        .profileContent {
+            background: #fcedff;
+            margin: 20px 0 0 0;
+            border-radius: 10px;
+
+            ion-button {
+                --padding: 0;
+            }
+
+            ion-card {
+                border-radius: 10px;
+                color: white;
+                background: linear-gradient(135deg, #a700ff 0%, #00189a 100%);
+
+                h1 {
+                    font-weight: bold;
+                }
+            }
+
+            h6,
+            h3 {
+                color: black;
+            }
+
+            span {
+                color: #a700ff;
+            }
+
+
+            ion-button {
+
+                --border-radius: 20px;
+            }
+
+            .profileContentLogo {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                background: #eac4ff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+
+                ion-icon {
+                    border-radius: 50%;
+                    background: #a700ff;
+                    color: white;
+                    padding: 2px;
+                    font-size: 20px;
+                }
+
+                ion-icon.logo2 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+.profileImageBox {
+    ion-img {
+        border-radius: 50%;
+        border: 1px solid #a700ff;
+        width: 70px;
+        height: 70px;
+    }
+}

@@ -1,0 +1,28 @@
+.languagePage {
+    background: white;
+
+    ion-header {
+        h4 {
+            color: black;
+        }
+
+        ion-toolbar {
+            --padding-start: 1rem;
+            --padding-end: 1rem;
+
+            ion-button {
+                font-size: 20px;
+            }
+        }
+    }
+
+    ion-footer {
+        --background: transparent;
+
+        .footerLine {
+            width: 40%;
+            border: 3px solid white;
+            border-radius: 10px;
+        }
+    }
+}

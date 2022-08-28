@@ -1,0 +1,116 @@
+.teamReportPage {
+    background: white;
+
+    ion-header {
+        ion-toolbar {
+            --padding-start: 1rem;
+            --padding-end: 1rem;
+
+            h4 {
+                color: black;
+            }
+
+            ion-button {
+                font-size: 20px;
+            }
+        }
+    }
+
+    ion-content {
+
+        .tabBox {
+            span {
+                border-radius: 12px;
+                background: #f1f2f2;
+                color: black;
+                padding: 5px 12px;
+                margin: 0 2px;
+
+                &:active {
+                    color: white;
+                    background: #0099fe;
+                }
+
+                &:hover,
+                &:active,
+                &:focus-visible {
+                    background-color: #0099fe;
+                    color: white;
+                }
+            }
+
+        }
+
+        .diplayRange {
+            background: #f1f2f2;
+            padding: 0px 1rem;
+            color: black;
+
+            p {
+                width: 10px;
+                border: 1px solid black;
+            }
+
+            ion-datetime {
+                padding: 0;
+            }
+        }
+
+        ion-card {
+            background: #f1f2f2;
+            color: black;
+
+            p {
+                margin: 5px 0 0 0;
+            }
+        }
+
+        .itemBody {
+            margin-top: 1rem;
+            border-radius: 1rem;
+            overflow: hidden;
+            background: #f1f2f2;
+
+            .dataItem {
+                padding: 5px 0;
+                border-bottom: 1px solid rgb(226, 226, 226);
+
+                &:last-child {
+                    border-bottom: none;
+                }
+
+                ion-img {
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    border: 2px solid white;
+                }
+
+                div {
+                    margin-left: 5px;
+
+                    p {
+                        margin: 0;
+                        color: black;
+                        font-size: 12px;
+                    }
+
+                    .userName {
+                        color: black !important;
+                    }
+                }
+            }
+        }
+    }
+
+    ion-footer {
+        --background: transparent;
+
+        .footerLine {
+            width: 40%;
+            border: 3px solid white;
+            border-radius: 10px;
+        }
+    }
+}

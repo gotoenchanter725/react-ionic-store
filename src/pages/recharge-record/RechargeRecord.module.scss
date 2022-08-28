@@ -1,0 +1,51 @@
+.rechargeRocordPage {
+    background: white;
+
+    ion-header {
+        h4 {
+            color: black;
+        }
+
+        ion-toolbar {
+            --padding-start: 1rem;
+            --padding-end: 1rem;
+
+            ion-button {
+                font-size: 20px;
+            }
+        }
+    }
+
+    ion-content {
+        p {
+            color: black;
+        }
+
+        ion-card {
+            margin-bottom: 1rem;
+            background: #f1f2f2;
+            color: black;
+
+            .totalAmount {
+                color: #0099fe;
+            }
+
+            .statusBadge {
+                background: #0099fe;
+                border-radius: 20px;
+                padding: 2px 10px;
+                color: white;
+            }
+        }
+    }
+
+    ion-footer {
+        --background: transparent;
+
+        .footerLine {
+            width: 40%;
+            border: 3px solid white;
+            border-radius: 10px;
+        }
+    }
+}

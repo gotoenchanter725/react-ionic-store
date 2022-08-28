@@ -1,0 +1,62 @@
+.invitePage {
+    background: url(./invite-bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    ion-header {
+        background: #0f4cb2;
+
+
+        ion-toolbar {
+            --padding-start: 1rem;
+            --padding-end: 1rem;
+
+            h4 {
+                color: white;
+            }
+
+            ion-button {
+                font-size: 20px;
+            }
+        }
+    }
+
+    ion-content {
+
+        ion-grid {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 45vh;
+        }
+
+        span {
+            text-align: justify;
+        }
+
+        ion-button {
+            --border-radius: 30px;
+            --padding-bottom: 1.5rem;
+            --padding-top: 1.5rem;
+            width: 100%;
+            --background: #77a2d8;
+        }
+
+        ion-icon {
+            transform: rotate(-45deg);
+            margin-right: 10px;
+        }
+    }
+
+    ion-footer {
+        --background: #0f4cb2;
+        background: #0f4cb2;
+
+        .footerLine {
+            width: 40%;
+            border: 3px solid white;
+            border-radius: 10px;
+        }
+    }
+}
